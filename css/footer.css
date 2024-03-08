@@ -1,0 +1,24 @@
+footer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+footer .copywrite {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+footer .copywrite p {
+  color: var(--second-text);
+  font-weight: 400;
+  line-height: 24px;
+}
+footer .copywrite div {
+  width: 80%;
+  height: 1px;
+  background-color: var(--accent);
+}

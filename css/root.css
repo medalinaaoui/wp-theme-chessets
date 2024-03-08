@@ -1,0 +1,22 @@
+:root {
+  --primary: #2ab6fd; /* Main primary color */
+  --secondary: rgba(150, 150, 150, 0.2); /* Secondary color */
+  --accent: #186a92; /* Accent color */
+  --background: #000000; /* Background color */
+  --text-color: #c0d0eb; /* Text color */
+  --second-text: rgba(255, 255, 255, 0.8);
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--text-color);
+  font-family: "Nunito", sans-serif;
+  --primary: #222;
+}
